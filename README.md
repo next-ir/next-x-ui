@@ -2,8 +2,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./media/next-x-ui-dark.png">
-    <img alt="next-x-ui" src="./media/next-x-ui-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./media/next-x-ui-high-resolution-logo.png">
+    <img alt="next-x-ui" src="./media/next-x-ui-high-resolution-logo.png">
   </picture>
 </p>
 
