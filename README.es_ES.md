@@ -15,19 +15,11 @@
 [![Downloads](https://img.shields.io/github/downloads/mhsanaei/3x-ui/total.svg)](#)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-> **Descargo de responsabilidad:** Este proyecto es solo para aprendizaje personal y comunicación, por favor no lo uses con fines ilegales, por favor no lo uses en un entorno de producción
+> **Descargo de responsabilidad:** Este proyecto es personal y con fines de aprendizaje. No tengo un buen conocimiento de ninguno de los lenguajes utilizados o incluso de Git. Se recomienda no usar este proyecto para fines ilegales ni en entornos de producción.
+
 
 **Si este proyecto te es útil, podrías considerar darle una**:star2:
 
-<p align="left">
-  <a href="https://buymeacoffee.com/mhsanaei" target="_blank">
-    <img src="./media/buymeacoffe.png" alt="Image">
-  </a>
-</p>
-
-- USDT (TRC20): `TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC`
-- MATIC (polygon): `0x41C9548675D044c6Bfb425786C765bc37427256A`
-- LTC (Litecoin): `ltc1q2ach7x6d2zq0n4l0t4zl7d7xe2s6fs7a3vspwv`
 
 ## Instalar y Actualizar
 

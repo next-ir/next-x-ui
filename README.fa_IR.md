@@ -15,19 +15,10 @@
 [![Downloads](https://img.shields.io/github/downloads/mhsanaei/3x-ui/total.svg)](#)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-> **سلب مسئولیت:** این پروژه صرفاً برای اهداف آموزشی و تحقیقاتی است. استفاده از آن برای مقاصد غیرقانونی یا در محیط‌های عملیاتی ممنوع است.
+> **سلب مسئولیت:** ین پروژه شخصی و برای اهداف یادگیری است. من درک خوبی از هیچ‌یک از زبان‌های استفاده شده یا حتی گیت ندارم. توصیه می‌شود از این پروژه برای اهداف غیرقانونی یا در محیط‌های عملیاتی استفاده نکنید.
 
 **اگر این پروژه برای شما مفید بوده، می‌توانید با دادن یک**:star2: از آن حمایت کنید.
 
-<p align="left">
-  <a href="https://buymeacoffee.com/mhsanaei" target="_blank">
-    <img src="./media/buymeacoffe.png" alt="Image">
-  </a>
-</p>
-
-- USDT (TRC20): `TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC`
-- MATIC (polygon): `0x41C9548675D044c6Bfb425786C765bc37427256A`
-- LTC (Litecoin): `ltc1q2ach7x6d2zq0n4l0t4zl7d7xe2s6fs7a3vspwv`
 
 ## نصب و ارتقا
 
