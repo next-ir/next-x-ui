@@ -1736,6 +1736,7 @@ show_usage() {
 │  ${blue}x-ui banlog${plain}       - Check Fail2ban ban logs          │
 │  ${blue}x-ui update${plain}       - Update                           │
 │  ${blue}x-ui legacy${plain}       - legacy version                   │
+│  ${blue}x-ui version${plain}      - Show version                     │
 │  ${blue}x-ui install${plain}      - Install                          │
 │  ${blue}x-ui uninstall${plain}    - Uninstall                        │
 └───────────────────────────────────────────────────────┘"
@@ -1901,6 +1902,9 @@ if [[ $# > 0 ]]; then
         ;;
     "legacy")
         check_install 0 && legacy_version 0
+        ;;
+    "version")
+        check_install 0 && /usr/local/x-ui/x-ui -v
         ;;
     "install")
         check_uninstall 0 && install 0
