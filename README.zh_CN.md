@@ -2,17 +2,17 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./media/3x-ui-dark.png">
-    <img alt="3x-ui" src="./media/3x-ui-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./media/next-x-ui-dark.png">
+    <img alt="next-x-ui" src="./media/next-x-ui-light.png">
   </picture>
 </p>
 
 **一个更好的面板 • 基于Xray Core构建**
 
-[![](https://img.shields.io/github/v/release/mhsanaei/3x-ui.svg)](https://github.com/MHSanaei/3x-ui/releases)
-[![](https://img.shields.io/github/actions/workflow/status/mhsanaei/3x-ui/release.yml.svg)](#)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/mhsanaei/3x-ui.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/mhsanaei/3x-ui/total.svg)](#)
+[![](https://img.shields.io/github/v/release/next-ir/next-x-ui.svg)](https://github.com/next-ir/next-x-ui/releases)
+[![](https://img.shields.io/github/actions/workflow/status/next-ir/next-x-ui/release.yml.svg)](#)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/next-ir/next-x-ui.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/next-ir/next-x-ui/total.svg)](#)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **Disclaimer:** 该项目是个人的，旨在学习。我对使用的任何语言甚至Git的理解都不深刻。建议不要将此项目用于非法目的或在生产环境中使用。
@@ -23,7 +23,7 @@
 ## 安装 & 升级
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/next-ir/next-x-ui/master/install.sh)
 ```
 
 ## 安装旧版本 (我们不建议)
@@ -31,7 +31,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 要安装您想要的版本，请使用以下安装命令。例如，ver `v1.7.9`:
 
 ```
-VERSION=v1.7.9 && <(curl -Ls "https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh") $VERSION
+VERSION=v1.7.9 && <(curl -Ls "https://raw.githubusercontent.com/next-ir/next-x-ui/$VERSION/install.sh") $VERSION
 ```
 
 ### SSL证书
@@ -107,7 +107,7 @@ case "${ARCH}" in
 esac
 
 
-wget https://github.com/MHSanaei/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/next-ir/next-x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. 下载压缩包后，执行以下命令安装或升级 x-ui：
@@ -154,8 +154,8 @@ systemctl restart x-ui
 2. 克隆仓库：
 
    ```sh
-   git clone https://github.com/MHSanaei/3x-ui.git
-   cd 3x-ui
+   git clone https://github.com/next-ir/next-x-ui.git
+   cd next-x-ui
    ```
 
 3. 运行服务：
@@ -173,26 +173,26 @@ systemctl restart x-ui
       -v $PWD/cert/:/root/cert/ \
       --network=host \
       --restart=unless-stopped \
-      --name 3x-ui \
-      ghcr.io/mhsanaei/3x-ui:latest
+      --name next-x-ui \
+      ghcr.io/next-ir/next-x-ui:latest
    ```
 
 更新至最新版本
 
    ```sh
-    cd 3x-ui
+    cd next-x-ui
     docker compose down
-    docker compose pull 3x-ui
+    docker compose pull next-x-ui
     docker compose up -d
    ```
 
-从Docker中删除3x-ui
+从Docker中删除next-x-ui
 
    ```sh
-    docker stop 3x-ui
-    docker rm 3x-ui
+    docker stop next-x-ui
+    docker rm next-x-ui
     cd --
-    rm -r 3x-ui
+    rm -r next-x-ui
    ```
 
 </details>
@@ -477,7 +477,7 @@ Web 面板通过 Telegram Bot 支持每日流量、面板登录、数据库备�
 
 #### 使用
 
-- [API 文档](https://www.postman.com/hsanaei/3x-ui/collection/q1l5l0u/3x-ui)
+- [API 文档](https://www.postman.com/hsanaei/next-x-ui/collection/q1l5l0u/next-x-ui)
 - `/login` 使用 `POST` 用户名称 & 密码： `{username: '', password: ''}` 登录
 - `/panel/api/inbounds` 以下操作的基础：
 
@@ -537,31 +537,31 @@ XUI_BIN_FOLDER="bin" XUI_DB_FOLDER="/etc/x-ui" go build main.go
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/01-overview-dark.png">
-  <img alt="3x-ui" src="./media/01-overview-light.png">
+  <img alt="next-x-ui" src="./media/01-overview-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/02-inbounds-dark.png">
-  <img alt="3x-ui" src="./media/02-inbounds-light.png">
+  <img alt="next-x-ui" src="./media/02-inbounds-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/03-add-inbound-dark.png">
-  <img alt="3x-ui" src="./media/03-add-inbound-light.png">
+  <img alt="next-x-ui" src="./media/03-add-inbound-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/04-add-client-dark.png">
-  <img alt="3x-ui" src="./media/04-add-client-light.png">
+  <img alt="next-x-ui" src="./media/04-add-client-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/05-settings-dark.png">
-  <img alt="3x-ui" src="./media/05-settings-light.png">
+  <img alt="next-x-ui" src="./media/05-settings-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/06-configs-dark.png">
-  <img alt="3x-ui" src="./media/06-configs-light.png">
+  <img alt="next-x-ui" src="./media/06-configs-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/07-bot-dark.png">
-  <img alt="3x-ui" src="./media/07-bot-light.png">
+  <img alt="next-x-ui" src="./media/07-bot-light.png">
 </picture>
 
 ## 特别感谢
@@ -575,4 +575,4 @@ XUI_BIN_FOLDER="bin" XUI_DB_FOLDER="/etc/x-ui" go build main.go
 
 ## Star趋势
 
-[![Stargazers over time](https://starchart.cc/MHSanaei/3x-ui.svg?variant=adaptive)](https://starchart.cc/MHSanaei/3x-ui)
+[![Stargazers over time](https://starchart.cc/next-ir/next-x-ui.svg?variant=adaptive)](https://starchart.cc/next-ir/next-x-ui)

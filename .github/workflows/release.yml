@@ -1,4 +1,4 @@
-name: Release 3X-UI
+name: Release next-x-ui
 
 on:
   workflow_dispatch:

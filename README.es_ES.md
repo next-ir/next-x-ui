@@ -2,17 +2,17 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./media/3x-ui-dark.png">
-    <img alt="3x-ui" src="./media/3x-ui-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./media/next-x-ui-dark.png">
+    <img alt="next-x-ui" src="./media/next-x-ui-light.png">
   </picture>
 </p>
 
 **Un Panel Web Avanzado • Construido sobre Xray Core**
 
-[![](https://img.shields.io/github/v/release/mhsanaei/3x-ui.svg)](https://github.com/MHSanaei/3x-ui/releases)
-[![](https://img.shields.io/github/actions/workflow/status/mhsanaei/3x-ui/release.yml.svg)](#)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/mhsanaei/3x-ui.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/mhsanaei/3x-ui/total.svg)](#)
+[![](https://img.shields.io/github/v/release/next-ir/next-x-ui.svg)](https://github.com/next-ir/next-x-ui/releases)
+[![](https://img.shields.io/github/actions/workflow/status/next-ir/next-x-ui/release.yml.svg)](#)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/next-ir/next-x-ui.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/next-ir/next-x-ui/total.svg)](#)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **Descargo de responsabilidad:** Este proyecto es personal y con fines de aprendizaje. No tengo un buen conocimiento de ninguno de los lenguajes utilizados o incluso de Git. Se recomienda no usar este proyecto para fines ilegales ni en entornos de producción.
@@ -24,7 +24,7 @@
 ## Instalar y Actualizar
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/next-ir/next-x-ui/master/install.sh)
 ```
 
 ## Instalar versión antigua (no recomendamos)
@@ -32,7 +32,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 Para instalar la versión deseada, utiliza el siguiente comando de instalación. Por ejemplo, ver `v1.7.9`:
 
 ```
-VERSION=v1.7.9 && <(curl -Ls "https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh") $VERSION
+VERSION=v1.7.9 && <(curl -Ls "https://raw.githubusercontent.com/next-ir/next-x-ui/$VERSION/install.sh") $VERSION
 ```
 
 ## Certificado SSL
@@ -108,7 +108,7 @@ case "${ARCH}" in
 esac
 
 
-wget https://github.com/MHSanaei/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/next-ir/next-x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. Una vez que se haya descargado el paquete comprimido, ejecuta los siguientes comandos para instalar o actualizar x-ui:
@@ -155,8 +155,8 @@ systemctl restart x-ui
 2. Clona el Repositorio del Proyecto:
 
    ```sh
-   git clone https://github.com/MHSanaei/3x-ui.git
-   cd 3x-ui
+   git clone https://github.com/next-ir/next-x-ui.git
+   cd next-x-ui
    ```
 
 3. Inicia el Servicio
@@ -174,26 +174,26 @@ systemctl restart x-ui
       -v $PWD/cert/:/root/cert/ \
       --network=host \
       --restart=unless-stopped \
-      --name 3x-ui \
-      ghcr.io/mhsanaei/3x-ui:latest
+      --name next-x-ui \
+      ghcr.io/next-ir/next-x-ui:latest
    ```
 
 actualizar a la última versión
 
    ```sh
-    cd 3x-ui
+    cd next-x-ui
     docker compose down
-    docker compose pull 3x-ui
+    docker compose pull next-x-ui
     docker compose up -d
    ```
 
-eliminar 3x-ui de docker
+eliminar next-x-ui de docker
 
    ```sh
-    docker stop 3x-ui
-    docker rm 3x-ui
+    docker stop next-x-ui
+    docker rm next-x-ui
     cd --
-    rm -r 3x-ui
+    rm -r next-x-ui
    ```
 
 </details>
@@ -478,7 +478,7 @@ Ingresa el ID de chat de usuario en el campo de entrada número 4. Las cuentas d
 
 #### Uso
 
-- [Documentación de API](https://www.postman.com/hsanaei/3x-ui/collection/q1l5l0u/3x-ui)
+- [Documentación de API](https://www.postman.com/hsanaei/next-x-ui/collection/q1l5l0u/next-x-ui)
 - `/login` con `POST` datos de usuario: `{username: '', password: ''}` para iniciar sesión
 - `/panel/api/inbounds` base para las siguientes acciones:
 
@@ -538,31 +538,31 @@ XUI_BIN_FOLDER="bin" XUI_DB_FOLDER="/etc/x-ui" go build main.go
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/01-overview-dark.png">
-  <img alt="3x-ui" src="./media/01-overview-light.png">
+  <img alt="next-x-ui" src="./media/01-overview-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/02-inbounds-dark.png">
-  <img alt="3x-ui" src="./media/02-inbounds-light.png">
+  <img alt="next-x-ui" src="./media/02-inbounds-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/03-add-inbound-dark.png">
-  <img alt="3x-ui" src="./media/03-add-inbound-light.png">
+  <img alt="next-x-ui" src="./media/03-add-inbound-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/04-add-client-dark.png">
-  <img alt="3x-ui" src="./media/04-add-client-light.png">
+  <img alt="next-x-ui" src="./media/04-add-client-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/05-settings-dark.png">
-  <img alt="3x-ui" src="./media/05-settings-light.png">
+  <img alt="next-x-ui" src="./media/05-settings-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/06-configs-dark.png">
-  <img alt="3x-ui" src="./media/06-configs-light.png">
+  <img alt="next-x-ui" src="./media/06-configs-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/07-bot-dark.png">
-  <img alt="3x-ui" src="./media/07-bot-light.png">
+  <img alt="next-x-ui" src="./media/07-bot-light.png">
 </picture>
 
 ## Un agradecimiento especial a
@@ -576,4 +576,4 @@ XUI_BIN_FOLDER="bin" XUI_DB_FOLDER="/etc/x-ui" go build main.go
 
 ## Estrellas a lo largo del tiempo
 
-[![Stargazers over time](https://starchart.cc/MHSanaei/3x-ui.svg?variant=adaptive)](https://starchart.cc/MHSanaei/3x-ui)
+[![Stargazers over time](https://starchart.cc/next-ir/next-x-ui.svg?variant=adaptive)](https://starchart.cc/next-ir/next-x-ui)

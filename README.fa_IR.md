@@ -2,17 +2,17 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./media/3x-ui-dark.png">
-    <img alt="3x-ui" src="./media/3x-ui-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./media/next-x-ui-dark.png">
+    <img alt="next-x-ui" src="./media/next-x-ui-light.png">
   </picture>
 </p>
 
 **یک پنل وب پیشرفته • ساخته شده بر پایه Xray Core**
 
-[![](https://img.shields.io/github/v/release/mhsanaei/3x-ui.svg)](https://github.com/MHSanaei/3x-ui/releases)
-[![](https://img.shields.io/github/actions/workflow/status/mhsanaei/3x-ui/release.yml.svg)](#)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/mhsanaei/3x-ui.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/mhsanaei/3x-ui/total.svg)](#)
+[![](https://img.shields.io/github/v/release/next-ir/next-x-ui.svg)](https://github.com/next-ir/next-x-ui/releases)
+[![](https://img.shields.io/github/actions/workflow/status/next-ir/next-x-ui/release.yml.svg)](#)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/next-ir/next-x-ui.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/next-ir/next-x-ui/total.svg)](#)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **سلب مسئولیت:** ین پروژه شخصی و برای اهداف یادگیری است. من درک خوبی از هیچ‌یک از زبان‌های استفاده شده یا حتی گیت ندارم. توصیه می‌شود از این پروژه برای اهداف غیرقانونی یا در محیط‌های عملیاتی استفاده نکنید.
@@ -23,7 +23,7 @@
 ## نصب و ارتقا
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/next-ir/next-x-ui/master/install.sh)
 ```
 
 ## نصب نسخه‌های قدیمی (توصیه نمی‌شود)
@@ -31,7 +31,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 برای نصب نسخه خاصی از دستور زیر استفاده کنید. مثال برای نسخه `v1.7.9`:
 
 ```
-VERSION=v1.7.9 && bash <(curl -Ls "https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh") $VERSION
+VERSION=v1.7.9 && bash <(curl -Ls "https://raw.githubusercontent.com/next-ir/next-x-ui/$VERSION/install.sh") $VERSION
 ```
 
 ## گواهی SSL
@@ -107,7 +107,7 @@ case "${ARCH}" in
   *) XUI_ARCH="amd64" ;;
 esac
 
-wget https://github.com/MHSanaei/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/next-ir/next-x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. نصب یا ارتقا:
@@ -155,8 +155,8 @@ systemctl restart x-ui
 2. **کلون پروژه:**
 
    ```sh
-   git clone https://github.com/MHSanaei/3x-ui.git
-   cd 3x-ui
+   git clone https://github.com/next-ir/next-x-ui.git
+   cd next-x-ui
    ```
 
 3. **راه‌اندازی سرویس:**
@@ -174,26 +174,26 @@ systemctl restart x-ui
       -v $PWD/cert/:/root/cert/ \
       --network=host \
       --restart=unless-stopped \
-      --name 3x-ui \
-      ghcr.io/mhsanaei/3x-ui:latest
+      --name next-x-ui \
+      ghcr.io/next-ir/next-x-ui:latest
    ```
 
 4. **به‌روزرسانی:**
 
    ```sh
-   cd 3x-ui
+   cd next-x-ui
    docker compose down
-   docker compose pull 3x-ui
+   docker compose pull next-x-ui
    docker compose up -d
    ```
 
 5. **حذف:**
 
    ```sh
-   docker stop 3x-ui
-   docker rm 3x-ui
+   docker stop next-x-ui
+   docker rm next-x-ui
    cd --
-   rm -r 3x-ui
+   rm -r next-x-ui
    ```
 
 </details>
@@ -459,7 +459,7 @@ WARP به صورت داخلی پشتیبانی می‌شود. تنها نیاز 
 
 #### استفاده
 
-- [مستندات API](https://www.postman.com/hsanaei/3x-ui/collection/q1l5l0u/3x-ui)
+- [مستندات API](https://www.postman.com/hsanaei/next-x-ui/collection/q1l5l0u/next-x-ui)
 - `/login` با `POST` داده کاربر: `{username: '', password: ''}`
 
 | Method | مسیر                               | عملکرد                                      |
@@ -497,11 +497,11 @@ XUI_BIN_FOLDER="bin" XUI_DB_FOLDER="/etc/x-ui" go build main.go
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/01-overview-dark.png">
-  <img alt="3x-ui" src="./media/01-overview-light.png">
+  <img alt="next-x-ui" src="./media/01-overview-light.png">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./media/02-inbounds-dark.png">
-  <img alt="3x-ui" src="./media/02-inbounds-light.png">
+  <img alt="next-x-ui" src="./media/02-inbounds-light.png">
 </picture>
 
 ## قدردانی ویژه از
@@ -515,4 +515,4 @@ XUI_BIN_FOLDER="bin" XUI_DB_FOLDER="/etc/x-ui" go build main.go
 
 ## Stargazers over Time
 
-[![Stargazers over time](https://starchart.cc/MHSanaei/3x-ui.svg?variant=adaptive)](https://starchart.cc/MHSanaei/3x-ui)
+[![Stargazers over time](https://starchart.cc/next-ir/next-x-ui.svg?variant=adaptive)](https://starchart.cc/next-ir/next-x-ui)
