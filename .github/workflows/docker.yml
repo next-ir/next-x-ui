@@ -19,7 +19,7 @@ jobs:
       uses: docker/metadata-action@v5
       with:
         images: |
-          hsanaeii/next-x-ui
+          nextir/next-x-u
           ghcr.io/next-ir/next-x-ui
         tags: |
           type=ref,event=branch
